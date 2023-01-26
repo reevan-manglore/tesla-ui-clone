@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-function useIntersectionRatio(ref, cb,
+function useIntersectionRatio(ref,
         {root=null,
         rootMargin="0px",
         threshold = [] }

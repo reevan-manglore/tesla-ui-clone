@@ -5,7 +5,7 @@ import useIntersectionRatio from '../hooks/useIntersectionRatio'
 
 function ProductView({ bgImage, hedding, linkText, linkHref, subText, primaryButtonText, secondoryButtonText }) {
   const sectionRef = useRef();
-  const ratio = useIntersectionRatio(sectionRef, () => 10,
+  const ratio = useIntersectionRatio(sectionRef,
     {
       threshold: Array.from({ length: (1 - 0) / 0.05 + 1 }, (_, i) => 0 + i * 0.05),//same as range(0,1,0.05) of python
     }
