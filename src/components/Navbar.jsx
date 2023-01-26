@@ -8,7 +8,7 @@ function Navbar() {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   return (
-    <div className='flex justify-between lg:justify-around  items-center px-4 py-3 z-20  '>
+    <div className='flex justify-between lg:justify-around  items-center px-4 py-3 z-20   '>
       <img src={teslaLogo} alt="tesla logo" className='w-36' />
       <nav className='relative'>
         <div className='absolute left-4' aria-roledescription='highliter'></div>
@@ -51,7 +51,7 @@ function Navbar() {
 
 
       <aside
-        className={`h-screen ${isMenuVisible ? "sm:w-3/4 lg:w-2/6 px-4 py-2" : "w-0"} rounded-tl rounded-bl fixed top-0 right-0 bg-white transition-[width] overflow-y-scroll z-10`}
+        className={`h-screen ${isMenuVisible ? "sm:w-3/4 md:w-2/6 lg:w-3/12 px-4 py-2" : "w-0"} rounded-tl rounded-bl fixed top-0 right-0 bg-white transition-[width] overflow-y-scroll z-10`}
       >
         <button
           className={`absolute right-1 top-1 ${!isMenuVisible ? "hidden" : ""}`}
@@ -61,7 +61,7 @@ function Navbar() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <section className='mt-6'>
+        <section className='my-6'>
 
 
           <ul className='flex flex-col space-y-4  items-start'>
