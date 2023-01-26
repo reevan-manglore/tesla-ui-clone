@@ -7,7 +7,6 @@ function useMediaQuery(mediaQuery) {
         const match = window.matchMedia(mediaQuery);
         setMatches(match.matches);
         const listener = () => {
-            console.log("function has been executed");
             setMatches(match.matches);
         }
         window.addEventListener("resize", listener);
