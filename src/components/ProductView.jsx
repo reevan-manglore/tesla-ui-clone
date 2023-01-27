@@ -19,7 +19,7 @@ function ProductView({ bgImage, hedding, linkText, linkHref, subText, primaryBut
       style={{ backgroundImage: `url('${bgImage}')` }}
       ref={sectionRef}
     >
-      <article className='h-3/4  w-full  flex flex-col justify-between items-center '
+      <article className='h-3/4  w-full  flex flex-col justify-between items-center transition-opacity'
         style={{opacity:ratio<0.9?Math.max(ratio-0.4,0):ratio}}
       >
         <div className='flex flex-col justify-center items-center space-y-4' >
