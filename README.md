@@ -35,8 +35,11 @@
 
 
 
-### Demo
+### Demo Video
 <span>
-    <img src = "./screenshots/demo.mp4"  width = "200px"/>
-    &ensp; &ensp;
+
+
+https://user-images.githubusercontent.com/50790161/219961047-d99ea0eb-0fb2-4f97-911c-8e40296c9268.mp4
+
+
 </span>
